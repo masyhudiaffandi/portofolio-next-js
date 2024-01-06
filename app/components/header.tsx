@@ -9,7 +9,7 @@ import LinkButtons from "./in-button"
 const Header = () => {
     return (
         <header id="home" className="flex justify-center">
-            <nav className="flex items-center rounded-full  md:px-11 py-4 fixed bg-gray-600 bg-opacity-30 backdrop-blur-md border border-white-[0.8px] md:mt-8">
+            <nav className="flex items-center rounded-full  md:px-11 py-4 fixed bg-slate-200 dark:bg-gray-600 dark:bg-opacity-30 bg-opacity-30 backdrop-blur-md border border-white-[0.8px] md:mt-8">
                 <ul className="flex gap-16 md:px-0 px-16">
                     {links.map((link) => (
                         <li key={link.name}>

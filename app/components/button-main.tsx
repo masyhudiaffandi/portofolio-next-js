@@ -14,13 +14,23 @@ const Buttons = () => {
   };
 
   return (
+    <>
+      <button
+        className='dark:block hidden text-md px-6 text-center hover:bg-white dark:text-white  transition-all  hover:text-[#676394] py-2 border border-solid dark:border-white rounded-full'
+        type='button'
+        onClick={handleDownload}
+      >
+      Download CV
+    </button>
+
     <button
-      className='text-md px-6 text-center hover:bg-white text-white transition-all hover:text-[#676394] py-2 border border-solid border-white rounded-full'
+      className='dark:hidden bloc text-md px-6 text-center hover:bg-white dark:text-white  transition-all hover:text-[#676394] py-2 border border-solid dark:border-white rounded-full'
       type='button'
       onClick={handleDownload}
     >
       Download CV
     </button>
+    </>
   );
 };
 
