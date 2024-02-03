@@ -27,6 +27,7 @@ export default function RootLayout({
         />
         {/* Render Google Fonts stylesheet */}
         <style>{`@font-face {${inter.style}}`}</style>
+        <meta name='keywords' content='Masyhudi, Affandi, Portofolio, Portfolio'/>
       </head>
       <body className={`${inter.className} h-[600vh] bg-gray-50 text-gray-950 relative dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
         <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
